@@ -1,0 +1,691 @@
+/* ================================================ Header Main ==================================== */
+/* ================================================================================================= */
+.main-header{
+	background: url('../img/main1.jpg') center no-repeat;
+	background-size: cover;
+	height: 100vh;
+	min-height: 600px;
+	position: relative;
+}
+.blog-header .bg-dark{
+	background: linear-gradient(45deg, #ed1b33 0%, #442e82 100%);
+}
+.main-header .navbar-brand,
+.blog-header .navbar-brand,
+.main-header .nav-link,
+.blog-header .nav-link{
+	color: #fff !important;
+	font-weight: 600;
+	font-size: 17px;
+}
+.main-header .navbar-brand,
+.blog-header .navbar-brand{
+	font-size: 41px;
+}
+.main-header .nav-link::after,
+.blog-header .nav-link::after{
+	content: "";
+	display: block;
+	width: 100%;
+	height: 2px;
+	background-color: #fff;
+	transform: scale(0);
+	transition: all 0.4s ease-in-out;
+}
+.main-header .nav-link:hover::after,
+.blog-header .nav-link:hover::after{
+	transform: scale(1);
+}
+.main-header-text{
+	position: absolute;
+	top: 25%;
+	left: 5%;
+	max-width: 600px;
+	color: #fff;
+	padding: 20px;
+}
+.main-header-text__pharag{
+	font-weight: normal;
+}
+.main-header-text__buttons{
+	padding-left: 30px;
+}
+.btn{
+	font-size: 15px;
+	font-weight: 600;
+	color: #fff;
+	text-transform: uppercase;
+}
+.main-header-text__buttons .btn{
+	width: 165px;
+	height: 50px;
+	opacity: .8;
+	transition: all 0.4s ease-in-out;
+	margin-top: 45px;
+}
+.main-header-text__buttons .btn:hover{
+	color: #fff;
+	opacity: 1;
+}
+.btn-pink{
+	background-color: #f42267;
+	margin-right: 20px;
+}
+.btn-violet{
+	background-color: #69328e;
+}
+.main-header-text__buttons .btn-pink{
+	box-shadow: 0 4px 16px #00000059;
+}
+.main-header-text__buttons .btn-violet{
+	box-shadow: 0 4px 16px #00000059;
+}
+/* ================================================= Section Watch ================================= */
+/* ================================================================================================= */
+.section-watch {
+	background: url('../img/world_map.png') center no-repeat;
+	background-size: cover;
+	padding: 100px 0 25px 0;
+}
+.section-tabs .nav-pills {
+	margin-bottom: 20px;
+}
+.section-tabs .nav-pills .nav-link {
+	font-size: 13px;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding: 12px 25px;
+	color: #333;
+}
+.section-tabs .nav-pills .nav-item .nav-link.active {
+	background-color: #ff3366;
+	color: #fff;
+	box-shadow: 0 4px 16px #00000059;
+}
+.btn-shadow {
+	box-shadow: 0 10px 0 #ff5990;
+	border-radius: 10px;
+	padding: 10px 25px;
+	transition: all 0.4s ease-in-out;
+}
+.btn-shadow:hover {
+	box-shadow: 0 5px 0 #da1757;
+	color: #fff;
+}
+/* ================================================ Section Progress =============================== */
+/* ================================================================================================= */
+.section-progress{
+	background-color: #4b2d7f;
+	color: #fff;
+	font-size: 15px;
+	padding: 0;
+	cursor: default;
+}
+.section-progress .num{
+	font-size: 50px;
+	font-weight: 600;
+	margin: 20px 0 10px;
+}
+.section-progress h4{
+	font-size: 30px;
+}
+.section-progress h4 span{
+	font-size: 35px;
+	font-weight: 600;
+}
+.section-progress .progress-item{
+	padding-top: 60px;
+	padding-bottom: 40px;
+	transition: all 0.4s ease-in-out;
+}
+.section-progress .progress-item:hover{
+	background-color: #40286a;
+}
+/* ================================================ Section Letsgrow =============================== */
+/* ================================================================================================= */
+.section-lets{
+	background: url('../img/letsgrow.jpg') center no-repeat;
+	background-size: cover;
+	color: #fff;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+.section-lets .pad-for-par{
+	padding: 0 130px;
+}
+.section-lets .btn-shadow{
+	margin: 40px 0 0;
+}
+/* ================================================ Section Design ================================= */
+/* ================================================================================================= */
+.section-design{
+	font-size: 17px;
+	padding: 100px 0;
+}
+.section-design h3{
+	font-size: 33px;
+}
+.section-design span img{
+	padding: 0 0 0 15px;
+}
+.section-design h2{
+	font-size: 25px;
+	font-weight: 600;
+	margin: 10px 0;
+}
+.fz-14{
+	font-size: 14px;
+}
+.embed-responsive{
+	position: relative;
+	border-radius: 10px;
+	width: 100%;
+	height: 480px;
+}
+#videoPlayBtn{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	z-index: 1000;
+	cursor: pointer;
+	background: url('../img/play.png') center no-repeat;
+}
+/* ================================================ Section Work =================================== */
+/* ================================================================================================= */
+.section-work{
+	background-color: #f1f1f1;
+	color: #333;
+}
+.section-work .fz-14{
+	font-size: 20px;
+}
+.section-work .nav-pills{
+	margin: 30px 0 60px 0;
+}
+.gallery-item{
+	margin-bottom: 30px;
+}
+.gallery a img{
+	transition: all 0.4s ease-in-out;
+	border-radius: 10px
+}
+.gallery a:hover img{
+	box-shadow: 0 14px 30px -15px #000000bf,
+				0 0 15px #2a9fffb2;
+	transform: scale(1.1);
+}
+.section-work .btn-shadow{
+	margin-top: 50px;
+}
+/* ================================================ Section Brands ================================= */
+/* ================================================================================================= */
+.section-brands{
+	background-color: #4b2d7f;
+}
+.section-brands .col-sm-3:nth-child(1),
+.section-brands .col-sm-3:nth-child(2),
+.section-brands .col-sm-3:nth-child(3),
+.section-brands .col-sm-3:nth-child(4){
+	margin-bottom: 50px;
+}
+.section-brands .col-sm-3:nth-child(3){
+	margin-top: 20px;
+}
+.section-brands .col-sm-3:nth-child(4){
+	margin-top: 10px;
+}
+.section-brands .col-sm-3:nth-child(5){
+	margin-top: 40px;
+}
+.section-brands .col-sm-3:nth-child(8){
+	margin-top: 10px;
+}
+/* ================================================ Section Reviews ================================ */
+/* ================================================================================================= */
+.section-reviews{
+	background: url('../img/reviews_bg.jpg') center no-repeat;
+	background-size: cover;
+	padding: 20px 0 0 0;
+	color: #fff;
+}
+.section-reviews .carousel-caption{
+	top: 5%;
+	bottom: auto;
+	text-align: left;
+}
+.section-reviews .blockquote{
+	font-style: italic;
+	font-weight: 500;
+	font-size: 22px;
+	position: relative;
+	padding-left: 40px;
+	margin-top: 70px;
+}
+.section-reviews .blockquote::before{
+	content: '“';
+	float: left;
+	color: #f42267;
+	font-size: 150px;
+	font-weight: 500;
+	font-style: italic;
+	position: absolute;
+	top: -80px;
+	left: -33px;
+}
+.section-reviews .blockquote p{
+	font-weight: lighter;
+	padding-bottom: 50px;
+}
+.section-reviews .blockquote-footer{
+	font-weight: lighter;
+	color: #fff;
+	font-style: normal;
+}
+.section-reviews .blockquote-footer img{
+	padding-bottom: 15px;
+}
+.section-reviews .blockquote-footer::before,
+.section-reviews .blockquote-footer::after{
+	content: '';
+}
+/* ================================================ Section Form =================================== */
+/* ================================================================================================= */
+.section-form{
+	background: url('../img/form_bg.jpg') center no-repeat;
+	background-size: cover;
+	color: #fff;
+	font-size: 17px;
+	padding: 80px 0;
+}
+.section-form h4 span{
+	font-size: 30px;
+	font-weight: 600;
+	margin-bottom: 25px;
+}
+.section-form form{
+	margin-top: 70px;
+}
+.section-form .btn-violet{
+	background-color: #4b2d7f;
+}
+.section-form .form-control{
+	height: 51px;
+	background-color: #ffffff59;
+	border: none;
+	color: #fff;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin-bottom: 20px;
+}
+.section-form .form-control:focus{
+	box-shadow: 0 0 0 0.2rem #ffffff40;
+}
+.section-form .form-control::placeholder{
+	color: #fff;
+}
+.btn-violet.btn-shadow{
+	box-shadow: 0 8px 0 #a57ee9;
+	transition: all 0.4s ease-in-out;
+}
+.btn-violet.btn-shadow:hover{
+	box-shadow: 0 4px 0 #64459b;
+	background-color: #3a2362;
+}
+/* ================================================ Section Contact ================================ */
+/* ================================================================================================= */
+.section-contact{
+	background-color: #4b2d7f;
+	font-size: 25px;
+	color: #7647c7;
+	padding: 55px;
+}
+.section-contact a{
+	color: #fff;
+	text-decoration: none;
+}
+.section-contact .col-md{
+	margin: 10px 0;
+}
+.section-contact a::after{
+	content: '';
+	display: block;
+	width: 100%;
+	height: 2px;
+	background-color: #fff;
+	transform: scale(0);
+	transition: all 0.4s ease-in-out;
+}
+.section-contact a:hover::after{
+	transform: scale(1);
+}
+/* ================================================ Footer Main ==================================== */
+/* ================================================================================================= */
+.main-footer{
+	background: url('../img/world_map.png') center no-repeat;
+	background-size: cover;
+	font-family: 'Poppins', sans-serif;
+	padding: 100px 0;
+}
+.main-footer h5{
+	font-size: 25px;
+	font-weight: 700;
+	color: #4b2d7f;
+}
+.main-footer ul{
+	list-style: none;
+	padding-left: 10px;
+}
+.main-footer ul li a{
+	font-size: 15px;
+	font-weight: 600;
+	color: #171717;
+	transition: all 0.4s ease-in-out;
+	text-decoration: none;
+}
+.main-footer ul li a:hover{
+	color: #4b2d7f;
+	text-decoration: underline;
+	font-size: 16px;
+}
+.footer-images img{
+	margin-bottom: 20px;
+	border-radius: 15px;
+}
+/* ================================================ Copy Right ===================================== */
+/* ================================================================================================= */
+.copy-right{
+	font-family: 'Poppins', sans-serif;
+	background-color: #f6f6f6;
+	padding: 20px 0;
+	font-size: 15px;
+	font-weight: 600;
+	color: #171717;
+}
+.copy-right a{
+	color: #171717;
+	transition: all 0.4s ease-in-out;
+	text-decoration: none;
+}
+.copy-right a:hover{
+	color: #4b2d7f;
+	text-decoration: underline;
+	font-size: 16px;
+}
+/* ================================================= Adaptive ====================================== */
+/* ================================================================================================= */
+@media only screen and (max-width: 1199px){
+	.section-lets .pad-for-par{
+		padding: 0;
+	}
+}
+@media only screen and (max-width: 1017px){
+	.section-contact{
+		font-size: 20px;
+		padding: 40px;
+	}
+}
+@media only screen and (max-width: 992px){
+	.main-header-text{
+		background-color: #0000004d;
+	}
+	.section-watch{
+		padding: 50px 0 0 0;
+	}
+	.section-design{
+		padding: 70px 0;
+	}
+	section{
+		padding: 70px 0;
+	}
+	.section-form{
+		padding: 70px 0;
+	}
+	.section-reviews h3{
+		font-size: 30px;
+	}
+	.section-reviews h4{
+		font-size: 34px;
+	}
+	.section-reviews .blockquote p{
+		font-size: 16px;
+		padding-bottom: 30px;
+	}
+	.section-reviews .blockquote{
+		margin-top: 50px;
+		padding-left: 30px;
+	}
+	.section-reviews .blockquote::before{
+		font-size: 100px;
+		top: -50px;
+		left: -20px;
+	}
+	.section-contact{
+		font-size: 16px;
+		padding: 40px;
+	}
+	.main-footer{
+		padding: 70px 0;
+	}
+	.col-lg-6.text-content{
+		margin-bottom: 50px;
+	}
+}
+@media only screen and (max-width: 991px){
+	.main-header .navbar-nav{
+		background: linear-gradient(45deg, #ed1b33 0%, #442e82 100%);
+		position: relative;
+		z-index: 1;
+		padding: 20px;
+		text-align: center;
+	}
+	.blog-header .navbar-nav{
+		background-color: transparent;
+		position: relative;
+		z-index: 1;
+		padding: 20px;
+		text-align: center;
+	}
+	.embed-responsive{
+		width: 100%;
+		height: auto;
+	}
+	.pagination{
+		margin-bottom: 50px;
+	}
+}
+@media only screen and (max-width: 950px){
+	.copy-right{
+		font-size: 14px;
+	}
+	.copy-right a:hover{
+		font-size: 14px;
+	}
+}
+@media only screen and (max-width: 780px){
+	.section-brands .col-sm-3{
+		padding: 0 20px;
+	}
+}
+@media only screen and (max-width: 768px){
+	.main-header-text{
+		left: 0;
+		margin: 0 20px;
+		max-width: 100%;
+	}
+	h3{
+		font-size: 30px;
+	}
+	h4{
+		font-size: 34px;
+	}
+	.section-watch{
+		padding: 40px 0 0 0;
+	}
+	.section-progress .progress-item{
+		padding-top: 40px;
+		padding-bottom: 20px;
+	}
+	.section-lets{
+		padding-top: 60px;
+		padding-bottom: 55px;
+	}
+	.section-design{
+		padding: 50px 0;
+	}
+	section{
+		padding: 50px 0;
+	}
+	.main-footer{
+		padding: 50px 0;
+	}
+	.section-form{
+		padding: 50px 0;
+	}
+	.section-work .nav-pills{
+		margin: 30px 0 40px 0;
+	}
+	.section-work .btn-shadow{
+		margin-top: 30px;
+	}
+	.section-work .fz-14{
+		font-size: 16px;
+	}
+	.section-reviews .carousel-caption{
+		position: static;
+	}
+	.section-reviews .blockquote-footer{
+		padding-bottom: 20px;
+	}
+	.section-form h4 span{
+		font-size: 26px;
+	}
+	.col-md-6.text-content{
+		margin-bottom: 50px;
+	}
+	.scroll-to-top{
+		height: 45px;
+		width: 45px;
+		right: 20px;
+	}
+	.scroll-to-top img{
+		width: 22px;
+	}
+}
+@media only screen and (max-width: 615px){
+	.main-header-text{
+		top: 120px;
+	}
+	.section-form{
+		font-size: 15px;
+	}
+}
+@media only screen and (max-width: 575px){
+	.section-brands .col-sm-3 img{
+		padding: 0;
+		margin: 30px 0;
+	}
+	.section-brands .col-sm-3:nth-child(1),
+	.section-brands .col-sm-3:nth-child(2),
+	.section-brands .col-sm-3:nth-child(3),
+	.section-brands .col-sm-3:nth-child(4){
+		margin-bottom: 0;
+	}
+	.section-brands .col-sm-3:nth-child(3){
+		margin-top: 0;
+	}
+	.section-brands .col-sm-3:nth-child(4){
+		margin-top: 0;
+	}
+	.section-brands .col-sm-3:nth-child(5){
+		margin-top: 0;
+	}
+	.section-brands .col-sm-3:nth-child(8){
+		margin-top: 0;
+	}
+	.section-contact{
+		padding: 30px;
+	}
+}
+@media only screen and (max-width: 480px){
+	.main-header-text__buttons{
+		padding-left: 0;
+	}
+	.main-header-text__buttons .btn{
+		width: 100%;
+		display: block;
+		margin-bottom: 5px;
+	}
+	.main-header-text__buttons .btn:last-child{
+		margin-top: 20px;
+	}
+	.main-header .navbar-brand,
+	.blog-header .navbar-brand{
+		font-size: 30px;
+	}
+	.main-header .navbar-brand img,
+	.blog-header .navbar-brand img{
+		width: 50px;
+	}
+	.main-header .navbar-toggler img,
+	.blog-header .navbar-toggler img{
+		width: 25px;
+	}
+	h3{
+		font-size: 24px;
+	}
+	h4{
+		font-size: 28px;
+	}
+	.section-form h4 span{
+		font-size: 22px;
+	}
+	.main-header-text__pharag{
+		font-size: 14px;
+	}
+	.section-watch .nav-pills{
+		text-align: center;
+	}
+	.section-watch .nav-pills .nav-link{
+		padding: 10px 0;
+	}
+	.section-tabs .nav-pills .nav-item{
+		width: 55%;
+		text-align: center;
+	}
+	.parag-size{
+		font-size: 14px;
+	}
+	.btn-shadow {
+		box-shadow: 0 7px 0 #ff5990;
+		padding: 8px 18px;
+	}
+	.btn-shadow:hover {
+		box-shadow: 0 3.5px 0 #da1757;
+	}
+	.section-work .btn-shadow{
+		margin-top: 20px;
+	}
+	.section-work .fz-14{
+		font-size: 14px;
+	}
+}
+@media only screen and (max-width: 390px){
+	.section-lets .btn-shadow{
+		margin: 20px 0 0;
+	}
+}
+@media only screen and (max-width: 385px){
+	.main-header-text{
+		top: 90px;
+	}
+	.section-watch{
+		padding: 25px 0 0 0;
+	}
+}
+@media only screen and (max-width: 353px){
+	.section-lets{
+		padding-top: 40px;
+		padding-bottom: 35px;
+	}
+}

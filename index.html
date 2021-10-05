@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- CSS files and link -->
+	<!-- ==================================================================================== -->
+	<!-- ==================================================================================== -->
+	<link rel="shortcut icon" href="./img/bootstrap.png" type="image/x-icon">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+		integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	<link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+	<style>
+		.preloader{
+			position: fixed;
+			top: 0;
+			bottom: 0;
+			right: 0;
+			left: 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			z-index: 9999;
+			/* background-color: #c5c5c5; */
+			background: url('./img/McLaren.jpg') center no-repeat;
+			background-size: cover;
+		}
+	</style>
+	<link rel="stylesheet" href="./css/baguetteBox.min.css">
+	<link rel="stylesheet" href="./css/normalize.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<!-- ==================================================================================== -->
+	<!-- ==================================================================================== -->
+	<title>Blue Rex</title>
+</head>
+
+<body>
+	<!-- ============================================================================ -->
+	<!-- ================================== Preloader =============================== -->
+	<div class="preloader">
+		<div class="spinner-border text-primary" style="width: 10rem; height: 10rem;" role="status">
+			<span class="sr-only">Loading...</span>
+		</div>
+		<div class="content-load">
+			<div class="spinner-grow text-primary" style="width: 8rem; height: 8rem;" role="status">
+				<span class="sr-only">Loading...</span>
+			</div>
+		</div>
+	</div>
+	<!-- ============================================================================ -->
+	<!-- ================================== Button To Top =========================== -->
+	<button class="scroll-to-top"></button>
+	<!-- ============================================================================ -->
+	<!-- ================================== Header ================================== -->
+	<header class="main-header">
+		<nav class="navbar navbar-expand-lg">
+			<a class="navbar-brand" href="./index.html">
+				<img src="./img/logo.png" alt="Our logo"> BlueRex
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<img src="./img/menu-img.png" alt="menu-img">
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+					<!-- <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li> -->
+					<li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">About</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Features</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Product</a></li>
+					<li class="nav-item"><a href="blog.html" class="nav-link">Reviews</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Faq</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<!-- .main-header-text -->
+		<div class="main-header-text">
+			<h3>We are best and creative agency</h3>
+			<h4>We turn creative ideas into your business.</h4>
+			<p class="main-header-text__pharag">Lorem ipsum dolor sit am et, consec tetur adipi scing elit. Sed sodales
+				enim ut rhoncus lorem ipsum ese terds.</p>
+			<div class="main-header-text__buttons">
+				<button type="button" class="btn btn-pink rounded-pill">our story</button>
+				<button type="button" class="btn btn-violet rounded-pill">read more</button>
+			</div>
+		</div>
+		<!-- .main-header-text -->
+	</header>
+	<!-- ============================================================================ -->
+	<!-- ================================== Main ==================================== -->
+	<main>
+		<!-- =================================================================================== -->
+		<!-- ================================== Section Watch ================================== -->
+		<section class="section-watch section-tabs">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 mb-5">
+						<h3>Dream Big Inspire the World</h3>
+						<h4>We turn creative ideas into your business.</h4>
+						<ul class="nav nav-pills" id="myTab" role="tablist">
+							<li class="nav-item" role="presentation">
+								<a class="nav-link rounded-pill" id="webdesign-tab" data-toggle="tab" href="#webdesign"
+									role="tab" aria-controls="webdesign" aria-selected="true">Webdesign</a>
+							</li>
+							<li class="nav-item" role="presentation">
+								<a class="nav-link rounded-pill" id="mobileapp-tab" data-toggle="tab" href="#mobileapp"
+									role="tab" aria-controls="mobileapp" aria-selected="false">Mobile app</a>
+							</li>
+							<li class="nav-item" role="presentation">
+								<a class="nav-link active rounded-pill" id="branding-tab" data-toggle="tab"
+									href="#branding" role="tab" aria-controls="branding"
+									aria-selected="false">Branding</a>
+							</li>
+						</ul>
+						<div class="tab-content" id="myTabContent">
+							<div class="tab-pane fade" id="webdesign" role="tabpanel" aria-labelledby="webdesign-tab">
+								<p class="parag-size">
+									Webdesign Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, quod pariatur
+									possimus nostrum odit, commodi excepturi laudantium asperiores quaerat, at hic.
+									Ducimus, nostrum. Laudantium, ipsam nam laborum dolorem obcaecati dolore?
+								</p>
+								<p>
+									<a href="#" class="btn btn-pink btn-shadow">Read more</a>
+								</p>
+							</div>
+							<div class="tab-pane fade" id="mobileapp" role="tabpanel" aria-labelledby="mobileapp-tab">
+								<p class="parag-size">
+									Mobile app Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, quod
+									pariatur possimus nostrum odit, commodi excepturi laudantium asperiores quaerat, at
+									hic. Ducimus, nostrum. Laudantium, ipsam nam laborum dolorem obcaecati dolore?
+								</p>
+								<p>
+									<a href="#" class="btn btn-pink btn-shadow">Read more</a>
+								</p>
+							</div>
+							<div class="tab-pane fade show active" id="branding" role="tabpanel"
+								aria-labelledby="branding-tab">
+								<p class="parag-size">
+									Branding Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, quod pariatur
+									possimus nostrum odit, commodi excepturi laudantium asperiores quaerat, at hic.
+									Ducimus, nostrum. Laudantium, ipsam nam laborum dolorem obcaecati dolore?
+								</p>
+								<p>
+									<a href="#" class="btn btn-pink btn-shadow">Read more</a>
+								</p>
+							</div>
+						</div>
+					</div>
+					<!-- col-md-6 -->
+					<div class="col-lg-6 text-lg-right text-center">
+						<img src="./img/watch.png" alt="Watch image">
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- =================================================================================== -->
+		<!-- ================================== Section Progress =============================== -->
+		<section class="section-progress text-center">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 progress-item">
+						<div><img src="./img/bullhorn.png" alt="Bullhorn-icon"></i></div>
+						<div class="num">500+</div>
+						<h4><span>Successfully</span> completed projects</h4>
+						<p>Lorem ipsum dolor sit am et, consec tetur adipi scing elit. Sed sodales enim ut rhoncus lorem
+							ipsum ese terds.</p>
+					</div>
+					<div class="col-md-4 progress-item">
+						<div><img src="./img/bullhorn.png" alt="Bullhorn-icon"></i></div>
+						<div class="num">254+</div>
+						<h4><span>Highly</span> specialised employees</h4>
+						<p>Lorem ipsum dolor sit am et, consec tetur adipi scing elit. Sed sodales enim ut rhoncus lorem
+							ipsum ese terds.</p>
+					</div>
+					<div class="col-md-4 progress-item">
+						<div><img src="./img/bullhorn.png" alt="Bullhorn-icon"></i></div>
+						<div class="num">45+</div>
+						<h4><span>Awards</span> around the world</h4>
+						<p>Lorem ipsum dolor sit am et, consec tetur adipi scing elit. Sed sodales enim ut rhoncus lorem
+							ipsum ese terds.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- =================================================================================== -->
+		<!-- ================================== Section Letsgrow =============================== -->
+		<section class="section-lets text-center">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h3>Let's Grow Together</h3>
+						<h4>We turn creative ideas into your business.</h4>
+						<div class="pad-for-par">
+							<p>Lorem ipsum dolor sit am et, consec tetur adipi scing elit. Sed sodales enim ut rhoncus
+								lorem ipsum ese terds. Lorem ipsum dolor sit am et, consec tetur adipi scing elit.</p>
+						</div>
+						<p><a href="#" class="btn btn-pink btn-shadow">Read more</a></p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- =================================================================================== -->
+		<!-- ================================== Section Design ================================= -->
+		<section class="section-design">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6">
+						<h3>We are best and creative agency</h3>
+						<h4>We turn creative ideas into your business.</h4>
+						<p>Lorem ipsum dolor sit am et, consec tetur adipi scing elit. Sed sodales enim ut rhoncus lorem
+							ipsum ese terds. Lorem ipsum dolor sit am et, consec tetur adipi scing elit. Sed sodales
+							enim ut rhoncus lorem ipsum ese terds.</p>
+						<div class="row mt-5">
+							<div class="col-md-6 mb-4">
+								<span><img src="./img/message.png" alt="Message icon"></span>
+								<h2>Graphic Design</h2>
+								<p class="fz-14">Lorem ipsum dolor sit am et, consec tetur adipi scing elit. Sed sodales
+									enim ut rhoncus lorem ipsum ese terds.</p>
+								<p><a href="#" class="btn btn-pink btn-shadow">Read more</a></p>
+							</div>
+							<div class="col-md-6">
+								<span><img src="./img/bullhorn-violet.png" alt="Bullhorn violet icon"></span>
+								<h2>Graphic Design</h2>
+								<p class="fz-14">Lorem ipsum dolor sit am et, consec tetur adipi scing elit. Sed sodales
+									enim ut rhoncus lorem ipsum ese terds.</p>
+								<p><a href="#" class="btn btn-pink btn-shadow">Read more</a></p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 text-right">
+						<div class="embed-responsive embed-responsive-16by9 mt-5">
+							<iframe src="https://youtu.be/Ul-b1-ar0p0" allowfullscreen></iframe>
+							<iframe id="videoPlayer" class="embed-responsive-item"
+								src="https://www.youtube.com/embed/Ul-b1-ar0p0" allowfullscreen></iframe>
+							<!-- <div id="videoPlayBtn"></div> -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- =================================================================================== -->
+		<!-- ================================== Section Work =================================== -->
+		<section class="section-work section-tabs">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-10 offset-md-1 text-center">
+						<h4>Our Recent Work</h4>
+						<p class="fz-14">Lorem ipsum dolor sit am et, consec tetur adipi scing elit. Sed sodales enim ut
+							rhoncus lorem ipsum ese terds. Lorem ipsum dolor sit am et, consec tetur adipi scing elit.
+							Sed sodales enim ut rhoncus lorem ipsum ese terds.Lorem ipsum dolor sit am et, consec tetur
+							adipi scing elit.</p>
+					</div>
+					<div class="col-md-12">
+						<ul class="nav nav-pills justify-content-center" id="myTab-gallery" role="tablist">
+							<li class="nav-item" role="presentation">
+								<a class="nav-link rounded-pill" id="webdesign-tab2" data-toggle="tab"
+									href="#webdesign2" role="tab" aria-controls="webdesign2"
+									aria-selected="true">Webdesign</a>
+							</li>
+							<li class="nav-item" role="presentation">
+								<a class="nav-link rounded-pill" id="mobileapp-tab2" data-toggle="tab"
+									href="#mobileapp2" role="tab" aria-controls="mobileapp2"
+									aria-selected="false">Mobile app</a>
+							</li>
+							<li class="nav-item" role="presentation">
+								<a class="nav-link active rounded-pill" id="branding-tab2" data-toggle="tab"
+									href="#branding2" role="tab" aria-controls="branding2"
+									aria-selected="false">Branding</a>
+							</li>
+						</ul>
+						<div class="tab-content text-center" id="myTabContent">
+							<div class="tab-pane fade" id="webdesign2" role="tabpanel" aria-labelledby="webdesign-tab2">
+								<div class="gallery text-center row">
+									<div class="col-sm-4 gallery-item">
+										<a href="./img/Gallery/1.jpg">
+											<img src="./img/Gallery/1_s.jpg" alt="Image from my Gallery">
+										</a>
+									</div>
+									<div class="col-sm-4 gallery-item">
+										<a href="./img/Gallery/2.jpg">
+											<img src="./img/Gallery/2_s.jpg" alt="Image from my Gallery">
+										</a>
+									</div>
+									<div class="col-sm-4 gallery-item">
+										<a href="./img/Gallery/3.jpg">
+											<img src="./img/Gallery/3_s.jpg" alt="Image from my Gallery">
+										</a>
+									</div>
+									<div class="col-sm-4 gallery-item">
+										<a href="./img/Gallery/4.jpg">
+											<img src="./img/Gallery/4_s.jpg" alt="Image from my Gallery">
+										</a>
+									</div>
+									<div class="col-sm-4 gallery-item">
+										<a href="./img/Gallery/5.jpg">
+											<img src="./img/Gallery/5_s.jpg" alt="Image from my Gallery">
+										</a>
+									</div>
+									<div class="col-sm-4 gallery-item">
+										<a href="./img/Gallery/6.jpg">
+											<img src="./img/Gallery/6_s.jpg" alt="Image from my Gallery">
+										</a>
+									</div>
+									<div class="col-sm-4 gallery-item">
+										<a href="./img/Gallery/7.jpg">
+											<img src="./img/Gallery/7_s.jpg" alt="Image from my Gallery">
+										</a>
+									</div>
+									<div class="col-sm-4 gallery-item">
+										<a href="./img/Gallery/8.jpg">
+											<img src="./img/Gallery/8_s.jpg" alt="Image from my Gallery">
+										</a>
+									</div>
+									<div class="col-sm-4 gallery-item">
+										<a href="./img/Gallery/9.jpg">
+											<img src="./img/Gallery/9_s.jpg" alt="Image from my Gallery">
+										</a>
+									</div>
+								</div>
+								<p><a href="#" class="btn btn-pink btn-shadow">Read more</a></p>
+							</div>
+							<div class="tab-pane fade" id="mobileapp2" role="tabpanel" aria-labelledby="mobileapp-tab2">
+								<div class="gallery text-center row">
+									<div class="col-sm-4 gallery-item">
+										<a href="./img/Gallery/4.jpg">
+											<img src="./img/Gallery/4_s.jpg" alt="Image from my Gallery">
+										</a>
+									</div>
+									<div class="col-sm-4 gallery-item">
+										<a href="./img/Gallery/5.jpg">
+											<img src="./img/Gallery/5_s.jpg" alt="Image from my Gallery">
+										</a>
+									</div>
+									<div class="col-sm-4 gallery-item">
+										<a href="./img/Gallery/6.jpg">
+											<img src="./img/Gallery/6_s.jpg" alt="Image from my Gallery">
+										</a>
+									</div>
+									<div class="col-sm-4 gallery-item">
+										<a href="./img/Gallery/7.jpg">
+											<img src="./img/Gallery/7_s.jpg" alt="Image from my Gallery">
+										</a>
+									</div>
+									<div class="col-sm-4 gallery-item">
+										<a href="./img/Gallery/8.jpg">
+											<img src="./img/Gallery/8_s.jpg" alt="Image from my Gallery">
+										</a>
+									</div>
+									<div class="col-sm-4 gallery-item">
+										<a href="./img/Gallery/9.jpg">
+											<img src="./img/Gallery/9_s.jpg" alt="Image from my Gallery">
+										</a>
+									</div>
+									<div class="col-sm-4 gallery-item">
+										<a href="./img/Gallery/1.jpg">
+											<img src="./img/Gallery/1_s.jpg" alt="Image from my Gallery">
+										</a>
+									</div>
+									<div class="col-sm-4 gallery-item">
+										<a href="./img/Gallery/2.jpg">
+											<img src="./img/Gallery/2_s.jpg" alt="Image from my Gallery">
+										</a>
+									</div>
+									<div class="col-sm-4 gallery-item">
+										<a href="./img/Gallery/3.jpg">
+											<img src="./img/Gallery/3_s.jpg" alt="Image from my Gallery">
+										</a>
+									</div>
+								</div>
+								<p><a href="#" class="btn btn-pink btn-shadow">Read more</a></p>
+							</div>
+							<div class="tab-pane fade show active" id="branding2" role="tabpanel"
+								aria-labelledby="branding-tab2">
+								<div class="gallery text-center row">
+									<div class="col-sm-4 gallery-item">
+										<a href="./img/Gallery/7.jpg">
+											<img src="./img/Gallery/7_s.jpg" alt="Image from my Gallery">
+										</a>
+									</div>
+									<div class="col-sm-4 gallery-item">
+										<a href="./img/Gallery/8.jpg">
+											<img src="./img/Gallery/8_s.jpg" alt="Image from my Gallery">
+										</a>
+									</div>
+									<div class="col-sm-4 gallery-item">
+										<a href="./img/Gallery/9.jpg">
+											<img src="./img/Gallery/9_s.jpg" alt="Image from my Gallery">
+										</a>
+									</div>
+									<div class="col-sm-4 gallery-item">
+										<a href="./img/Gallery/4.jpg">
+											<img src="./img/Gallery/4_s.jpg" alt="Image from my Gallery">
+										</a>
+									</div>
+									<div class="col-sm-4 gallery-item">
+										<a href="./img/Gallery/5.jpg">
+											<img src="./img/Gallery/5_s.jpg" alt="Image from my Gallery">
+										</a>
+									</div>
+									<div class="col-sm-4 gallery-item">
+										<a href="./img/Gallery/6.jpg">
+											<img src="./img/Gallery/6_s.jpg" alt="Image from my Gallery">
+										</a>
+									</div>
+									<div class="col-sm-4 gallery-item">
+										<a href="./img/Gallery/1.jpg">
+											<img src="./img/Gallery/1_s.jpg" alt="Image from my Gallery">
+										</a>
+									</div>
+									<div class="col-sm-4 gallery-item">
+										<a href="./img/Gallery/2.jpg">
+											<img src="./img/Gallery/2_s.jpg" alt="Image from my Gallery">
+										</a>
+									</div>
+									<div class="col-sm-4 gallery-item">
+										<a href="./img/Gallery/3.jpg">
+											<img src="./img/Gallery/3_s.jpg" alt="Image from my Gallery">
+										</a>
+									</div>
+								</div>
+								<p><a href="#" class="btn btn-pink btn-shadow">Read more</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- =================================================================================== -->
+		<!-- ================================== Section Brands ================================= -->
+		<section class="section-brands text-center">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-3"><img src="./img/Brands/cisco.png" alt="Cisco logo"></div>
+					<div class="col-sm-3"><img src="./img/Brands/adidas.png" alt="Adidas logo"></div>
+					<div class="col-sm-3"><img src="./img/Brands/lenovo.png" alt="Lenovo logo"></div>
+					<div class="col-sm-3"><img src="./img/Brands/disney.png" alt="Disney logo"></div>
+					<div class="col-sm-3"><img src="./img/Brands/amazon.png" alt="Amazon logo"></div>
+					<div class="col-sm-3"><img src="./img/Brands/puma.png" alt="Puma logo"></div>
+					<div class="col-sm-3"><img src="./img/Brands/apple.png" alt="Apple logo"></div>
+					<div class="col-sm-3"><img src="./img/Brands/mini.png" alt="Mini logo"></div>
+				</div>
+			</div>
+		</section>
+		<!-- =================================================================================== -->
+		<!-- ================================== Section Reviews ================================ -->
+		<section class="section-reviews">
+			<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#carouselExampleCaptions" data-slide-to="0"></li>
+					<li data-target="#carouselExampleCaptions" data-slide-to="1" class="active"></li>
+					<li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="carousel-item">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-7">
+									<div class="carousel-caption">
+										<h3>Our Happy Client</h3>
+										<h4>Testimonials</h4>
+										<blockquote class="blockquote">
+											<p>Lorem ipsum dolor sit am et, consec tetur adipi scing elit.
+												Sed sodales enim ut rhoncus lorem ipsum ese terds.</p>
+											<footer class="blockquote-footer">
+												<img src="./img/stars.png" alt="Stars Image"><br>
+												Mr. John Doe
+											</footer>
+										</blockquote>
+									</div>
+								</div>
+								<div class="col-md-5 d-none d-md-block">
+									<img src="./img/client.png" alt="Client Image">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item active">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-7">
+									<div class="carousel-caption">
+										<h3>Our Happy Client</h3>
+										<h4>Testimonials</h4>
+										<blockquote class="blockquote">
+											<p class="mb-0">Lorem ipsum dolor sit am et, consec tetur adipi
+												scing elit. Sed sodales enim ut rhoncus lorem ipsum ese terds.</p>
+											<footer class="blockquote-footer">
+												<img src="./img/stars.png" alt="Stars Image"><br>
+												Mr. Jack Kline
+											</footer>
+										</blockquote>
+									</div>
+								</div>
+								<div class="col-md-5 d-none d-md-block">
+									<img src="./img/client.png" alt="Client Image">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-7">
+									<div class="carousel-caption">
+										<h3>Our Happy Client</h3>
+										<h4>Testimonials</h4>
+										<blockquote class="blockquote">
+											<p class="mb-0">Lorem ipsum dolor sit am et, consec tetur adipi scing
+												elit. Sed sodales enim ut rhoncus lorem ipsum ese terds.</p>
+											<footer class="blockquote-footer">
+												<img src="./img/stars.png" alt="Stars Image"><br>
+												Mr. David
+											</footer>
+										</blockquote>
+									</div>
+								</div>
+								<div class="col-md-5 d-none d-md-block">
+									<img src="./img/client.png" alt="Client Image">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+		</section>
+		<!-- =================================================================================== -->
+		<!-- ================================== Section Form =================================== -->
+		<section class="section-form text-center">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h4>Need Help?<br><span>Don't Forget to Contact With Us</span></h4>
+						<p>Lorem ipsum dolor sit am et, consec tetur adipi scing elit. Sed sodales enim ut rhoncus lorem
+							ipsum ese terds. Lorem ipsum dolor sit am et, consec tetur adipi scing elit. Sed sodales
+							enim ut rhoncus.</p>
+						<form class="text-left">
+							<div class="row">
+								<div class="col-md-5">
+									<input type="text" class="form-control" required name="Name" placeholder="Name">
+								</div>
+								<div class="col-md-5">
+									<input type="email" class="form-control" required name="Email" placeholder="Email">
+								</div>
+								<div class="col-md-2">
+									<button type="submit" class="btn btn-violet btn-shadow">submit</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- =================================================================================== -->
+		<!-- ================================== Section Contact ================================ -->
+		<section class="section-contact text-center">
+			<div class="container">
+				<div class="row">
+					<div class="col-md"><a href="https://www.facebook.com/rinat.samandarov.5/">facebook</a></div>
+					<div class="col-md d-none d-md-block">|</div>
+					<div class="col-md"><a href="#">twitter</a></div>
+					<div class="col-md d-none d-md-block">|</div>
+					<div class="col-md"><a href="#">linkedin</a></div>
+					<div class="col-md d-none d-md-block">|</div>
+					<div class="col-md"><a href="#">instagram</a></div>
+					<div class="col-md d-none d-md-block">|</div>
+					<div class="col-md"><a href="https://t.me/thedarovc_owner_Space">telegram</a></div>
+				</div>
+			</div>
+		</section>
+		<!-- =================================================================================== -->
+		<!-- ================================== Footer Main ==================================== -->
+		<footer class="main-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 text-content">
+						<div class="row">
+							<div class="col-6">
+								<h5>Company</h5>
+								<ul>
+									<li><a href="#">About</a></li>
+									<li><a href="#">Approach</a></li>
+									<li><a href="#">Sustainability</a></li>
+									<li><a href="#">Careers</a></li>
+									<li><a href="#">News</a></li>
+								</ul>
+							</div>
+							<div class="col-6">
+								<h5>Company</h5>
+								<ul>
+									<li><a href="#">About</a></li>
+									<li><a href="#">Approach</a></li>
+									<li><a href="#">Sustainability</a></li>
+									<li><a href="#">Careers</a></li>
+									<li><a href="#">News</a></li>
+								</ul>
+							</div>
+							<div class="col-6">
+								<h5>Company</h5>
+								<ul>
+									<li><a href="#">About</a></li>
+									<li><a href="#">Approach</a></li>
+									<li><a href="#">Sustainability</a></li>
+									<li><a href="#">Careers</a></li>
+									<li><a href="#">News</a></li>
+								</ul>
+							</div>
+							<div class="col-6">
+								<h5>Company</h5>
+								<ul>
+									<li><a href="#">About</a></li>
+									<li><a href="#">Approach</a></li>
+									<li><a href="#">Sustainability</a></li>
+									<li><a href="#">Careers</a></li>
+									<li><a href="#">News</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 footer-images text-center">
+						<div class="row">
+							<div class="col-md-6"><img src="./img/Footer/footer_img1.jpg" alt="Footer image"></div>
+							<div class="col-md-6"><img src="./img/Footer/footer_img2.jpg" alt="Footer image"></div>
+							<div class="col-md-6"><img src="./img/Footer/footer_img3.jpg" alt="Footer image"></div>
+							<div class="col-md-6"><img src="./img/Footer/footer_img4.jpg" alt="Footer image"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- =================================================================================== -->
+		<!-- ================================== Copy Right ===================================== -->
+		<div class="copy-right text-center">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="content">
+							<!-- buni boshqana qilish kere bootstrap bilan ul-li lar bilan -->
+							&copy; 2021 Developed by &nbsp;<big>&#9813;</big> Thedarov coders &nbsp; <a
+								href="https://thedarov-coders.org/">thedarov&nbsp;-&nbsp;coders.org</a>
+							&nbsp;<big>&#9900;</big>&nbsp;<a href="#">Privacy</a>&nbsp;
+							<big>&#9900;</big>&nbsp;<a href="#">Terms of Use</a>&nbsp;<big>&#9900;</big>&nbsp;<a
+								href="#">Site Map</a>
+							<!-- <ul class="nav">
+								<li class="nav-item">
+									<span class="nav-link">&copy; 2021 Developed by Thedarov coders thedarov-coders.org</span>
+								</li>
+								<li class="nav-item">&#9900;</li>
+								<li class="nav-item">
+									<a href="#" class="nav-link">Privacy</a>
+								</li>
+								<li class="nav-item">&#9900;</li>
+								<li class="nav-item">
+									<a href="#" class="nav-link">Terms of Use</a>
+								</li>
+								<li class="nav-item">&#9900;</li>
+								<li class="nav-item">
+									<a href="#" class="nav-link">Site Map</a>
+								</li>
+							</ul> -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<!-- jQuery and JS, Bootstrap JS files -->
+	<!-- ==================================================================================== -->
+	<!-- ==================================================================================== -->
+	<script src="./js/jquery-3.6.0.min.js"></script>
+	<script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="./js/popper.min.js"></script>
+	<script src="./bootstrap/js/bootstrap.min.js"></script>
+	<script src="./js/baguetteBox.min.js"></script>
+	<script src="./js/main.js"></script>
+	<!-- ==================================================================================== -->
+	<!-- ==================================================================================== -->
+</body>
+
+</html>

@@ -1,0 +1,86 @@
+*::before, *::after, *{
+	box-sizing: border-box;
+	font-weight: 500;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	min-width: 320px;
+	color: #484848;
+}
+::-webkit-scrollbar {
+	width: 9px;
+}
+::-webkit-scrollbar-track {
+	background-color: #444;
+}
+::-webkit-scrollbar-thumb {
+	background-color: #bdc1c6;
+	border-radius: 20px;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+section{
+	padding: 100px 0;
+}
+h3{
+	font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+	font-style: italic;
+	font-size: 42px;
+}
+h4{
+	font-weight: 600;
+	font-size: 46px;
+	margin-bottom: 25px;
+}
+.scroll-to-top{
+	position: fixed;
+	bottom: 70px;
+	right: 50px;
+	border-radius: 30px;
+	height: 53px;
+	width: 53px;
+	border: none;
+	outline: none;
+	display: none;
+	z-index: 1001;
+	background-color: #da1757;
+	border: 1px solid #da1757;
+	transition: all 0.4s ease-in-out;
+}
+.scroll-to-top:hover{
+	background-color: transparent;
+}
+.scroll-to-top:hover::before{
+	color: #da1757;
+}
+.scroll-to-top::before{
+	content: '\f077';
+	font-family: 'Font Awesome 5 Free';
+	font-weight: 900;
+	font-size: 30px;
+	color: #fff;
+}
+.scroll-to-top img{
+	width: 30px;
+	height: auto;
+}
+.spinner-border.text-primary {
+    color: #da1757 !important;
+}
+.spinner-grow.text-primary{
+	color: #da1758dc !important;
+}
+.content-load{
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
